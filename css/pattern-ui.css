@@ -1,0 +1,149 @@
+.ui-wrapper {
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 220px;
+	border: 1px solid black;
+	background: white;
+	padding: 10px;
+	z-index: 100;
+	overflow-x: scroll;
+}
+
+/* 					 */
+/* WIDGET TOOL BASIC */
+/* 					 */
+
+.widget-tool-header {
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 20px;
+	border: 1px solid black;
+}
+	.widget-tool-title {
+		float: left;
+		padding: 5px;
+		-webkit-margin-before: 0;
+	}
+	.widget-tool-title:after {
+		content: '';
+		width: 8px;
+		height: 8px;
+		margin-top: 2px;
+		margin-left: 3px;
+		background: red;
+		position: absolute;
+		opacity: 0.8;
+	}
+	.widget-tool-title.open:after {
+		background: url('../assets/ui/open-widget-tool-icon.svg');
+	}
+	.widget-tool-title.closed:before {
+		background: url('../assets/ui/closed-widget-tool-icon.svg');
+	}
+
+/*					 */
+/* SVG SHAPE WRAPPER */
+/*					 */
+
+.svg-library-wrapper {
+	width: 100%;
+}
+	.single-shapes-wrapper {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		align-items: center;
+		position: relative;
+		right: 0;
+		top: 0;
+		margin: 0;
+		padding: 0;
+		width: 220px;
+		height: 220px;
+		overflow: scroll;
+	}
+		.single-svg-shape {
+			display: inline-block;
+			width: 50px;
+			height: 50px;
+			padding: 5px;
+			border: 1px solid rgba(0, 0, 0, 0.5);
+			background: white;
+		}
+		.single-svg-shape:hover {
+			border: 1px solid black;
+			cursor: pointer;
+		}
+
+
+
+/*			         */
+/* LAYERS UI WRAPPER */
+/*			  		 */
+
+.layers-ui-wrapper {
+	width: 100%;
+}	
+	.single-layers-wrapper {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		align-items: center;
+		position: relative;
+		right: 0;
+		top: 0;
+		margin: 0;
+		padding: 0;
+		width: 220px;
+		height: 220px;
+		overflow: scroll;
+	}
+	.single-svg-shape {
+		display: inline-block;
+		width: 50px;
+		height: 50px;
+		padding: 5px;
+		border: 1px solid rgba(0, 0, 0, 0.5);
+		background: white;
+	}
+	.single-svg-shape:hover {
+		border: 1px solid black;
+		cursor: pointer;
+	}
+
+/*			              */
+/* CONTROLLERS UI WRAPPER */
+/*			  			  */
+
+.controllers-ui-wrapper {
+	position: relative;
+}
+
+.transform-title {
+	display: inline-block;
+	background: yellow;
+}
+.pattern-ui-slider {
+	display: inline-block;
+	width: 150px;
+	margin-left: 10px;
+	background: cyan;
+}
+
+/* 					   */
+/* GENERATE UI WRAPPER */
+/* 					   */
+
+.generate-ui-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: fixed;
+	height: 50px;
+	width: 100%;
+	bottom: 0;
+	border: 1px solid black;
+	z-index: 100;
+}

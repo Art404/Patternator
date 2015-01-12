@@ -1,0 +1,186 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Helvetica', 'Arial', sans-serif;
+	background: black;
+}
+
+/* */
+.checkauto {
+	color: white;
+	margin-left: 10px;
+}
+.switch-generator {
+	color: gray;
+}
+/* */
+
+
+
+/*        */
+/* HEADER */
+/*        */
+
+#header {
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 10;
+	/*background: white;*/
+	border-bottom: 1px solid black;
+}
+h1 {
+	display: inline-block;
+	margin: 10px;
+	background
+}
+
+ul {
+	display: inline-block;
+}
+li {
+	display: inline-block;
+	list-style-type: none;
+	margin-right: 20px;
+}
+li:hover {
+	color: blue;
+	cursor: pointer;
+}
+li.selected {
+ 	font-weight: bolder;
+ }
+
+/* 				  */
+/* CANVAS WRAPPER */
+/*        		  */
+
+.canvas-wrapper {
+	position: absolute;
+	float: left;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	z-index: 0;
+}
+
+#canvas {
+	width: 700px;
+	height: 700px;
+	margin: 0 auto;
+	border: 1px solid red;
+	position: relative;
+}
+
+.canvas-1 {
+	display: block;
+}
+.canvas-2 {
+	display: none;
+}
+.canvas-3 {
+	display: none;
+}
+.canvas-threejs {
+	display: none;
+}
+
+ /* 	   */
+ /* RENDER */
+ /*        */
+
+ #render {
+ 	top: 100px;
+ 	height: 500px;
+ 	position: absolute;
+ }
+
+.svg {
+	width:1000px;
+	height:1000px;
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.svg-2 {
+	width:1000px;
+	height:1000px;
+	z-index: 10;
+	position: absolute;
+	top: 100;
+	left: 0;
+}
+
+.svg-3 {
+	position: absolute;
+	width: 300px;
+	height: 200px;
+	border: 1px solid black;
+	-ms-transform: rotate(45deg); /* IE 9 */
+    -ms-transform-origin: 20% 40%; /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    -webkit-transform-origin: 20% 40%; /* Chrome, Safari, Opera */
+    transform: rotate(45deg);
+    transform-origin: 20% 40%;
+}
+
+.svg-4 {
+	position: absolute;
+	width: 300px;
+	height: 200px;
+	border: 1px solid black;
+	-ms-transform: rotate(90deg); /* IE 9 */
+    -ms-transform-origin: 40% 80%; /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    -webkit-transform-origin: 40% 80%; /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+    transform-origin: 40% 80%;
+}
+
+.class {
+	background: red;
+}
+.nike {
+	fill: green;
+	width:100px;
+	height: auto;
+	position: absolute;
+}
+.img {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 0;
+}
+
+/*            */
+/* PATTERN UI */
+/* 			  */
+
+#pattern-ui-wrapper {
+	width: 100%;
+	height: 200px;
+	position: fixed;
+	background: white;
+	z-index: 100;
+	left: 0;
+	bottom: 0;
+	border-top: 1px solid black;
+
+}
+
+/*				  */
+/* MIRROR PATTERN */
+/*				  */
+
+.canvas-mirror {
+	width: 300px;
+    display:block; 
+    -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
+    -moz-transform: matrix(-1, 0, 0, 1, 0, 0);
+    -o-transform: matrix(-1, 0, 0, 1, 0, 0);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}

@@ -1,0 +1,45 @@
+<!-- <?xml version="1.0" encoding="UTF-8"?>
+<div>
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox="0 0 800 800" color="orange">
+
+	<animateColor attributeName="color" values="orange;cyan;crimson;purple;lime;fuchsia;orange" begin="click" dur="10s" repeatCount="indefinite"/>
+	
+	<defs>
+		<linearGradient id="fadeGrad" y2="1" x2="0">
+			<stop offset="0.5" stop-color="currentColor" stop-opacity="0"/>
+			<stop offset="1" stop-color="currentColor" stop-opacity=".5"/>
+		</linearGradient>
+	</defs>
+	
+	<g id="web2.0-reflection">
+		<g fill="currentColor">
+			<text id="text" font-size="40" font-weight="bold" font-family="sans-serif" text-rendering="geometricPrecision">Instant Web 2.0</text>
+		</g>
+		<use xlink:href="#text" transform="scale(1 -1)" fill="url(#fadeGrad)"/>
+	</g>
+
+	<g id="yo">
+		<g class="nike">
+			<path id="nike" fill-rule="evenodd" clip-rule="evenodd" d="M79.5,88.2c-10.7,19.4-19.9,42.7-16.9,58c1.1,5.8,4,10.4,9.2,13.3
+				c7.5,4.2,14.9,4.7,21.8,3.2c10.2-2.1,19.4-8.3,26.7-13.1c12.2-8.1,146.3-102.4,146.3-102.4c1.3-1,0.8-1.8-0.9-1
+				c-0.7,0.3-151.4,76.5-151.4,76.5c-2.9,1.5-6,2.6-9,3.2c-12.3,2.6-24.6-2-27.4-16.3C76.8,104.1,77.1,97,79.5,88.2L79.5,88.2z"/>
+		</g>
+		<use xlink:href="#nike" transform="scale(1 -1)"/>
+	</g>
+</svg> -->
+
+<svg>
+  <!-- <defs> -->
+    <g id="shape">
+        <path d="M20,20 l20,20 l0,20 l-20,20 Z"
+              style="stroke: #3333cc; fill:none;" />
+
+        <path d="M20,20 l20,20 l0,20 l-20,20 Z"
+              style="stroke: #000000; fill:none;"
+              transform="translate(60, 0) scale(-1, 1) " />
+    </g>
+  <!-- </defs> -->
+
+  <!-- <use xlink:href="#shape" x="50" y="50" /> -->
+  <!-- <use xlink:href="#shape" x="0" y="0" transform="scale(1, -1)" fill="red" /> -->
+</svg>

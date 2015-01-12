@@ -1,0 +1,64 @@
+.svg-canvas {
+	position: relative;
+	height: 100%;
+	width: 100%;
+	/*background: white;*/
+	overflow: hidden
+}
+svg {
+	position: relative;
+	height: 600px;
+	width: 600px;
+	position: absolute;
+	margin: 100px auto;
+	left: 0;
+	right: 0;
+	overflow: hidden;
+}
+
+.svg {
+	position: relative;
+	height: 600px;
+	width: 600px;
+	position: absolute;
+	margin: 100px auto;
+	left: 0;
+	right: 0;
+	background: none;
+	overflow: hidden;
+}
+
+#Layer_1 {
+	background: white;
+}
+
+.layer1 {
+
+}
+.layer2 {
+	/*display: none;*/
+}
+.layer3 {
+	/*display: none;*/
+}
+.layer4 {
+	/*display: none;*/
+}
+.layer5 {
+	/*display: none;*/
+}
+.layer6 {
+	/*display: none;*/
+}
+.layer7 {
+	/*display: none;*/
+}
+.layer8 {
+	/*display: none;*/
+}
+.layer9 {
+	/*display: none;*/
+}
+.layer10 {
+	/*display: none;*/
+}

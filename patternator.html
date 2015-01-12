@@ -1,0 +1,273 @@
+<html>
+	<head>
+		<title>Pattern404</title>
+
+		<!-- PATTERN UI CSS -->
+		<link rel="stylesheet" type="text/css" href="css/pattern-main.css">
+		<link rel="stylesheet" type="text/css" href="css/pattern-ui.css">
+		<link rel="stylesheet" type="text/css" href="css/svg-canvas.css">
+
+		<!-- JQUERY UI CSS -->
+		<link rel="stylesheet" href="css/jquery-ui/all.css">
+		<link rel="stylesheet" href="css/jquery-ui/demos.css">
+		<link rel="stylesheet" href="css/jquery-ui/selectMenu.css">
+		<link rel="stylesheet" href="css/jquery-ui/sortable.css">
+		<link rel="stylesheet" href="css/jquery-ui/slider.css">
+
+	</head>
+
+	<body>
+		<section class="ui-wrapper">
+
+			<!--					-->
+			<!-- SVG SHAPES WRAPPER -->
+			<!--					-->
+
+			<article class="svg-library-wrapper">
+				<div class="widget-tool-header">
+					<p class="widget-tool-title open">Shape Library</p>
+				</div>
+
+				<div class="single-shapes-wrapper">
+					<span class="single-svg-shape"><img src="assets/svg/nike.svg"/></span>
+					<span class="single-svg-shape"><img src="assets/svg/adidas.svg"/></span>
+					<span class="single-svg-shape"><img src="assets/svg/apple.svg"/></span>
+					<span class="single-svg-shape"><img src="assets/svg/coca-cola.svg"/></span>
+					<span class="single-svg-shape"><img src="assets/svg/dove.svg"/></span>
+					<span class="single-svg-shape"><img src="assets/svg/mcdonalds.svg"/></span>
+					<span class="single-svg-shape"><img src="assets/svg/nbc.svg"/></span>
+					<span class="single-svg-shape"><img src="assets/svg/shell.svg"/></span>
+					<span class="single-svg-shape"><img src="assets/svg/target.svg"/></span>
+				</div>
+			</article>
+
+			<article class="pattern-object"></article>
+
+			<!--					    -->
+			<!-- CONTROLLERS UI WRAPPER -->
+			<!--					    -->
+			
+			<article class="controllers-ui-wrapper">
+				<article class="pattern1-item-wrapper">
+					<h3>Group1</h3>
+					<div class="tranform-wrapper">
+						<div class="translate-wrapper">
+							<div class="item-translateX-wrapper">
+								<p class="transform-title">translateX</p>
+								<div class="pattern-ui-slider group1-translateX"></div>
+							</div>
+
+							<div class="translateX-wrapper">
+								<p class="transform-title">translateY</p>
+								<div class="pattern-ui-slider group1-translateY"></div>
+							</div>
+
+							<div class="mirrorX-wrapper">
+								<p class="transform-title">mirrorX</p>
+								<input class="group1-mirrorX" type="checkbox" name="mirror" value="mirrorX">
+							</div>
+
+							<div class="mirrorY-wrapper">
+								<p class="transform-title">mirrorY</p>
+								<input class="group1-mirrorY" type="checkbox" name="mirror" value="mirrorY">
+							</div>
+						</div>
+					</div>
+
+					<div class="single-item-wrapper">
+						<h4 class="item-title">Item1</h4>
+
+						<div class="tranform-wrapper">
+							<div class="translate-wrapper">
+								<div class="translateX-wrapper">
+									<p class="transform-title">translateX</p>
+									<div class="pattern-ui-slider group1-item1-translateX"></div>
+								</div>
+
+								<div class="translateX-wrapper">
+									<p class="transform-title">translateY</p>
+									<div class="pattern-ui-slider group1-item1-translateY"></div>
+								</div>
+
+								<div class="mirrorX-wrapper">
+									<p class="transform-title">mirrorX</p>
+									<input class="group1-item1-mirrorX" type="checkbox" name="mirror" value="mirrorX">
+								</div>
+
+								<div class="mirrorY-wrapper">
+									<p class="transform-title">mirrorY</p>
+									<input class="group1-item1-mirrorY" type="checkbox" name="mirror" value="mirrorY">
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="single-item-wrapper">
+						<h4 class="item-title">Item2</h4>
+
+						<div class="item-transform-wrapper">
+							<div class="item-translate-wrapper">
+								<div class="item-translateX-wrapper">
+									<p class="transform-title">translateX</p>
+									<div class="pattern-ui-slider group1-item2-translateX"></div>
+								</div>
+
+								<div class="item-translateY-wrapper">
+									<p class="transform-title">translateY</p>
+									<div class="pattern-ui-slider group1-item2-translateY"></div>
+								</div>
+
+								<div class="mirrorX-wrapper">
+									<p class="transform-title">mirrorX</p>
+									<input class="group1-item2-mirrorY" type="checkbox" name="mirror" value="mirrorX">
+								</div>
+
+								<div class="mirrorY-wrapper">
+									<p class="transform-title">mirrorY</p>
+									<input class="group1-item2-mirrorX" type="checkbox" name="mirror" value="mirrorY">
+								</div>
+							</div>
+						</div>
+				</article>
+			</article>
+
+			<!-- <article class="pattern1-item-wrapper">
+				<h3>Group2</h3>
+				<div class="single-item-wrapper">
+					<h4 class="item-title">Item1</h4>
+
+					<div class="item-tranform-wrapper">
+						<div class="item-translate-wrapper">
+							<div class="item-translateX-wrapper">
+								<p class="translate-title">translateX</p>
+								<div class="pattern-ui-slider group2-item1-translateX"></div>
+							</div>
+
+							<div class="item-translateX-wrapper">
+								<p class="translate-title">translateY</p>
+								<div class="pattern-ui-slider group2-item1-translateY"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="single-item-wrapper">
+					<h4 class="item-title">Item2</h4>
+
+					<div class="item-transform-wrapper">
+						<div class="item-translate-wrapper">
+							<div class="item-translateX-wrapper">
+								<p class="translate-title">translateX</p>
+								<div class="pattern-ui-slider group2-item2-translateX"></div>
+							</div>
+
+							<div class="item-translateY-wrapper">
+								<p class="translate-title">translateY</p>
+								<div class="pattern-ui-slider group2-item2-translateY"></div>
+							</div>
+						</div>
+					</div>
+			</article> -->
+		</section>
+
+		<section class="svg-canvas">
+			<svg version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 800 800">
+			    <defs>
+			    	<g id="nike">
+			    		<path fill-rule="evenodd" clip-rule="evenodd" d="M79.5,88.2c-10.7,19.4-19.9,42.7-16.9,58c1.1,5.8,4,10.4,9.2,13.3
+			    			c7.5,4.2,14.9,4.7,21.8,3.2c10.2-2.1,19.4-8.3,26.7-13.1c12.2-8.1,146.3-102.4,146.3-102.4c1.3-1,0.8-1.8-0.9-1
+			    			c-0.7,0.3-151.4,76.5-151.4,76.5c-2.9,1.5-6,2.6-9,3.2c-12.3,2.6-24.6-2-27.4-16.3C76.8,104.1,77.1,97,79.5,88.2L79.5,88.2z"/>
+			    	</g>
+			    </defs>
+
+			    <defs>
+			    	<g id="mitsubishi" x="0" y="0">
+			    		<polygon fill="yellow" stroke="#000000" stroke-miterlimit="10" points="341.3,751 395.6,656.9 289.8,656.9 236,751"/>
+			    		<polygon fill="blue" stroke="#000000" stroke-miterlimit="10" points="450.2,566.3 395.6,472.4 340.7,565.5 395.6,656.9"/>
+			    		<polygon fill="red" stroke="#000000" stroke-miterlimit="10" points="501.1,656.9 556.5,751 448.7,751 395.6,656.9"/>
+			    	</g>
+			    </defs>
+
+			    <defs>
+			    	<g id="mcdonalds" x="0px" y="0px" transform="scale(1)">
+			    		<path fill="#F6AF26" d="M0,960.9C0,692.3,120,289,238.4,289c117.6,0,157.1,304.8,157.1,304.8S442.2,289,550.6,289
+			    			C668,289,792,657.8,792,960.9H691.3c0-241.9-64.3-607-134.7-607c-110.6,0-110.7,568.5-110.7,568.5H345.6
+			    			c0-306.4-41.6-568.5-105.7-568.5c-75.9,0-138.7,338.4-138.7,607H0z"/>
+			    	</g>
+			    </defs>
+
+			    <defs>
+			    	<g id="nike-mirror" class="group1" transform="translate(100, 100) scale(1)">
+					    <use xlink:href="#nike" transform="translate(500, 250) scale(-0.7, -0.7) rotate(0 -100 -100)"/>
+					    <use xlink:href="#nike" transform="translate(250, 250) scale(0.7, -0.7) rotate(0 150 -100)"/>
+					    <use class="group1-item1" xlink:href="#nike" transform="translate(0, 0) scale(-0.5, -0.5)" fill="magenta"/>
+					    <use class="group1-item1" xlink:href="#mitsubishi" transform="translate(0, 0) scale(-0.5, -0.5)"/>
+					    <use class="group1-item2" xlink:href="#nike" transform="translate(0, 0) scale(0.5, -0.5)" fill="lime"/>
+			    	</g>
+				</defs>
+
+
+				<defs>
+					<g id="nike-mirror-2">
+						<use class="group2-item1" xlink:href="#nike-mirror" transform="translate(0, 0)"/>
+						<!-- <use class="group2-item2" xlink:href="#nike-mirror" transform="translate(0, 50)"/> -->
+					</g>
+				</defs>
+
+				<defs>
+					<pattern  id="Pattern"  x=".5"  y=".5"  width= ".2"  height=".2">
+						<use class="group3-item1" xlink:href="#nike-mirror-2" transform="translate(0, 200) scale(0.5, -0.5)"/>
+						<!-- <use class="group3-item2" xlink:href="#nike-mirror-2" transform="translate(0, 200) scale(0.5)"/> -->
+						<!-- <use class="group3-item3" xlink:href="#nike-mirror-2" transform="translate(0, 200) scale(0.5)"/> -->
+						<!-- <use class="group3-item4" xlink:href="#nike-mirror-2" transform="translate(0, 600) scale(0.5, -0.5)"/> -->
+					</pattern>
+
+
+				</defs>
+
+				<!-- <defs> -->
+					<!-- <pattern  id="Pattern2"  x=".5"  y=".5"  width= ".2"  height=".2"> -->
+						<use class="group3-item1" xlink:href="mcdonalds" transform="translate(1000, 1000) scale(3)"/>
+						<!-- <use class="group3-item2" xlink:href="#nike-mirror-2" transform="translate(0, 200) scale(0.5)"/> -->
+						<!-- <use class="group3-item3" xlink:href="#nike-mirror-2" transform="translate(0, 200) scale(0.5)"/> -->
+						<!-- <use class="group3-item4" xlink:href="#nike-mirror-2" transform="translate(0, 600) scale(0.5, -0.5)"/> -->
+					<!-- </pattern> -->
+				<!-- </defs> -->
+
+				<rect  fill ="url(#Pattern)"  stroke="black"  x="0"  y="0"  width="100%"  height="100%"/> 
+				<!-- <rect  fill ="url(#Pattern2)"  stroke="black"  x="0"  y="0"  width="100%"  height="100%"/>  -->
+			</svg>
+
+			<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+				 viewBox="0 0 870.6 870.5" enable-background="new 0 0 870.6 870.5" xml:space="preserve">
+			<path fill="#010101" d="M76.3,515.3C31.2,597.2-7.7,695.6,5,760.2c4.6,24.5,16.9,43.9,38.8,56.2c31.7,17.7,62.9,19.8,92,13.5
+				c43.1-8.9,81.9-35,112.7-55.3c51.5-34.2,617.7-432.3,617.7-432.3c5.5-4.2,3.4-7.6-3.8-4.2c-3,1.3-639.2,323-639.2,323
+				c-12.2,6.3-25.3,11-38,13.5c-51.9,11-103.9-8.4-115.7-68.8C64.9,582.4,66.2,552.4,76.3,515.3L76.3,515.3z"/>
+			</svg>
+
+			<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+				 viewBox="0 0 870.6 870.5" enable-background="new 0 0 870.6 870.5" xml:space="preserve">
+			<path fill="#F5AF24" d="M0,786.8C0,491.6,131.9,48.3,262,48.3c129.3,0,172.7,335,172.7,335s51.3-335,170.5-335
+				c129,0,265.3,405.4,265.3,738.5H759.9c0-265.9-70.7-667.2-148.1-667.2c-121.6,0-121.7,624.9-121.7,624.9H379.9
+				c0-336.8-45.7-624.9-116.2-624.9c-83.4,0-152.5,372-152.5,667.2H0z"/>
+			</svg>
+
+		</section>
+
+		<!-- JQUERY JS -->
+		<script type="text/javascript" src="js/libs/jquery-2.1.1.min.js"></script>
+		<!-- JQUERY UI JS -->
+		<script src="js/libs/ui/core.js"></script>
+		<script src="js/libs/ui/widget.js"></script>
+		<script src="js/libs/ui/mouse.js"></script>
+		<script src="js/libs/ui/slider.js"></script>
+
+
+
+
+		<script type="text/javascript" src="js/main.js"></script>
+		<script type="text/javascript">
+			window.Pattern.init();
+		</script>
+	</body>
+</html>

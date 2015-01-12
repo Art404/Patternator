@@ -1,0 +1,234 @@
+<html>
+	<head>
+		<title>Pattern404</title>
+
+		<!-- STYLESHEET -->
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+	    <link rel="stylesheet" type="text/css" href="css/circle_transform.css">
+	</head>
+
+	<body>
+		<section id="header">
+			<h1>Patternator</h1>
+			<ul>
+				<li class="selected example-button grid">Grid Example</li>
+				<li class="example-button radial">Radial Example</li>
+				<li class="example-button mirror">Mirror Example</li>
+				<li class="example-button output">Output View</li>
+			</ul>
+		</section>
+
+		<section class="canvas-wrapper">
+			<!-- CUSTOM SVG -->
+			<article class="canvas canvas-1">
+				<SVG  class="svg"  xmlns="http://www.w3.org/2000/svg"  version ="1.1" > 
+					<defs > 
+						<linearGradient  id="Gradient1"> 
+							<stop  offset="5%"  stop-color="white" /> 
+							<stop  offset="95%"  stop-color="blue" /> 
+						</linearGradient> 
+						<linearGradient  id="Gradient2"  x1="0"  X2="0"  y1="0"  y2="1"> 
+							<stop  offset="5%"  stop-color="red"/> 
+							<stop  offset="95%"  stop-color="orange"/> 
+						</linearGradient>
+
+						<pattern  id="Pattern"  x=".05"  y=".05"  width= ".25"  height=".25"> 
+							<rect  x="105"  y="15"  width="50"  height="50"  fill="cyan"/> 
+							<rect  x="0"  y="0"  width="25"  height="25"  fill="url(#Gradient2)"/> 
+							<Circle  CX ="25"  cy ="25"  r ="20"  fill = "url(#Gradient1)"  fill-opacity="0.5"/> 
+						</pattern> 
+					</defs>
+
+					<rect  fill ="url(#Pattern)"  stroke="black"  x="0"  y="0"  width="1000"  height="1000"/> 
+				</SVG >
+
+				<SVG  class="svg-2"  xmlns="http://www.w3.org/2000/svg"  version ="1.1" > 
+					<defs > 
+						<linearGradient  id="Gradient1"> 
+							<stop  offset="5%"  stop-color="green" /> 
+							<stop  offset="95%"  stop-color="red" /> 
+						</linearGradient> 
+						<linearGradient  id="Gradient2"  x1="0"  X2="0"  y1="0"  y2="1"> 
+							<stop  offset="5%"  stop-color="yellow"/> 
+							<stop  offset="95%"  stop-color="blue"/> 
+						</linearGradient>
+
+						<pattern  id="Pattern"  x="1000"  y="1000"  width= "0.05"  height="0.05"> 
+							<rect  x="105"  y="15"  width="50"  height="50"  fill="pink"/> 
+							<rect  x="0"  y="0"  width="25"  height="25"  fill="url(#Gradient2)"/> 
+							<Circle  CX ="25"  cy ="25"  r ="20"  fill = "url(#Gradient1)"  fill-opacity="0.5"/> 
+							<g class="nike">
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M79.5,88.2c-10.7,19.4-19.9,42.7-16.9,58c1.1,5.8,4,10.4,9.2,13.3
+									c7.5,4.2,14.9,4.7,21.8,3.2c10.2-2.1,19.4-8.3,26.7-13.1c12.2-8.1,146.3-102.4,146.3-102.4c1.3-1,0.8-1.8-0.9-1
+									c-0.7,0.3-151.4,76.5-151.4,76.5c-2.9,1.5-6,2.6-9,3.2c-12.3,2.6-24.6-2-27.4-16.3C76.8,104.1,77.1,97,79.5,88.2L79.5,88.2z"/>
+							</g>
+						</pattern> 
+					</defs>
+
+					<rect  fill ="url(#Pattern)"  stroke="red"  x="0"  y="0"  width="700"  height="700"/> 
+				</SVG >
+
+				<!-- <SVG  class="svg-3"  xmlns="http://www.w3.org/2000/svg"  version ="1.1" > 
+						<pattern  id="Pattern"  x=".05"  y=".05"  width= ".25"  height=".25"> 
+							<rect  x="105"  y="15"  width="50"  height="50"  fill="pink"/> 
+							<rect  x="0"  y="0"  width="25"  height="25"  fill="url(#Gradient2)"/> 
+							<Circle  CX ="25"  cy ="25"  r ="20"  fill = "url(#Gradient1)"  fill-opacity="0.5"/> 
+							<g class="nike">
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M79.5,88.2c-10.7,19.4-19.9,42.7-16.9,58c1.1,5.8,4,10.4,9.2,13.3
+									c7.5,4.2,14.9,4.7,21.8,3.2c10.2-2.1,19.4-8.3,26.7-13.1c12.2-8.1,146.3-102.4,146.3-102.4c1.3-1,0.8-1.8-0.9-1
+									c-0.7,0.3-151.4,76.5-151.4,76.5c-2.9,1.5-6,2.6-9,3.2c-12.3,2.6-24.6-2-27.4-16.3C76.8,104.1,77.1,97,79.5,88.2L79.5,88.2z"/>
+							</g>
+						</pattern> 
+					</defs>
+
+					<rect  fill ="url(#Pattern)"  stroke="black"  x="0"  y="0"  width="1000"  height="1000"/> 
+				</SVG > -->
+
+				<div class="img">
+					<img src="http://lh4.ggpht.com/1M7bZGe51uosCICsd4MY0w_B2ogdZ2pibtOMLpD4815w_140NFSHNci1T9HxUYl-32mbt7F8eLdPgNE6C06PYw=s400-c"/>
+				</div>
+				<!-- <SVG version ="1.1">
+					<defs>
+						<pattern id="Pattern2" x=".05"  y=".05"  width= ".25"  height=".25">
+							<g class="nike">
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M79.5,88.2c-10.7,19.4-19.9,42.7-16.9,58c1.1,5.8,4,10.4,9.2,13.3
+									c7.5,4.2,14.9,4.7,21.8,3.2c10.2-2.1,19.4-8.3,26.7-13.1c12.2-8.1,146.3-102.4,146.3-102.4c1.3-1,0.8-1.8-0.9-1
+									c-0.7,0.3-151.4,76.5-151.4,76.5c-2.9,1.5-6,2.6-9,3.2c-12.3,2.6-24.6-2-27.4-16.3C76.8,104.1,77.1,97,79.5,88.2L79.5,88.2z"/>
+							</g>
+						</pattern>
+					</defs>
+				</SVG> -->
+
+				<div class="svg-div"></div>
+			</article>
+
+			<article class="canvas canvas-2">
+				<section class="container">
+				  <div id="carousel">
+				    <figure>1</figure>
+				    <figure>2</figure>
+				    <figure>3</figure>
+				    <figure>4</figure>
+				    <figure>5</figure>
+				    <figure>6</figure>
+				    <figure>7</figure>
+				    <figure>8</figure>
+				    <figure>9</figure>
+				  </div>
+				</section>
+			</article>
+
+			<article class="canvas canvas-3">
+				<div>
+					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 80" color="orange" data-ember-extension="1">
+
+						<animateColor attributeName="color" values="orange;cyan;crimson;purple;lime;fuchsia;orange" begin="click" dur="10s" repeatCount="indefinite"/>
+						
+						<defs>
+							<linearGradient id="fadeGrad" y2="1" x2="0">
+								<stop offset="0.5" stop-color="currentColor" stop-opacity="0"/>
+								<stop offset="1" stop-color="currentColor" stop-opacity=".5"/>
+							</linearGradient>
+						</defs>
+						
+						<g id="web2.0-reflection">
+							<g fill="currentColor">
+								<text id="text" font-size="40" font-weight="bold" font-family="sans-serif" text-rendering="geometricPrecision">Instant Web 2.0</text>
+							</g>
+							<!-- <use xlink:href="#text" transform="scale(1 -1)" fill="url(#fadeGrad)"/> -->
+						</g>
+					</svg>
+					<!-- <SVG class="mirror-svg" xmlns="http://www.w3.org/2000/svg"  version ="1.1" > 
+							<pattern  id="Pattern"  x=".05"  y=".05"  width= ".25"  height=".25"> 
+								<rect  x="105"  y="15"  width="50"  height="50"  fill="pink"/> 
+								<rect  x="0"  y="0"  width="25"  height="25"  fill="url(#Gradient2)"/> 
+								<Circle  CX ="25"  cy ="25"  r ="20"  fill = "url(#Gradient1)"  fill-opacity="0.5"/> 
+								<g class="nike">
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M79.5,88.2c-10.7,19.4-19.9,42.7-16.9,58c1.1,5.8,4,10.4,9.2,13.3
+										c7.5,4.2,14.9,4.7,21.8,3.2c10.2-2.1,19.4-8.3,26.7-13.1c12.2-8.1,146.3-102.4,146.3-102.4c1.3-1,0.8-1.8-0.9-1
+										c-0.7,0.3-151.4,76.5-151.4,76.5c-2.9,1.5-6,2.6-9,3.2c-12.3,2.6-24.6-2-27.4-16.3C76.8,104.1,77.1,97,79.5,88.2L79.5,88.2z"/>
+								</g>
+							</pattern> 
+						</defs>
+
+						<rect  fill ="url(#Pattern)"  stroke="black"  x="0"  y="0"  width="500"  height="500"/> 
+					
+						<use xmlns="http://www.w3.org/2000/svg" xlink:href="#Pattern" transform="scale(1 -1)" fill="url(#fadeGrad)"/>
+					</SVG >
+
+					<SVG class="mirror-svg" xmlns="http://www.w3.org/2000/svg"  version ="1.1" > 
+						<defs > 
+							<pattern  id="Pattern"  x=".05"  y=".05"  width= ".25"  height=".25"> 
+
+								<Circle  CX ="25"  cy ="25"  r ="20"  fill = "url(#Gradient1)"  fill-opacity="0.5"/> 
+								<g class="nike">
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M79.5,88.2c-10.7,19.4-19.9,42.7-16.9,58c1.1,5.8,4,10.4,9.2,13.3
+										c7.5,4.2,14.9,4.7,21.8,3.2c10.2-2.1,19.4-8.3,26.7-13.1c12.2-8.1,146.3-102.4,146.3-102.4c1.3-1,0.8-1.8-0.9-1
+										c-0.7,0.3-151.4,76.5-151.4,76.5c-2.9,1.5-6,2.6-9,3.2c-12.3,2.6-24.6-2-27.4-16.3C76.8,104.1,77.1,97,79.5,88.2L79.5,88.2z"/>
+								</g>
+							</pattern> 
+
+						<rect  fill ="url(#Pattern)"  stroke="black"  x="0"  y="0"  width="500"  height="500"/> 
+					
+						<use xmlns="http://www.w3.org/2000/svg" xlink:href="#Pattern" transform="scale(1 -1)" fill="url(#fadeGrad)"/>
+					</SVG > -->
+				</div>
+			</article>
+
+			<article class="canvas canvas-threejs">
+				<div id="render"></div>
+			</article>
+		</section>
+
+		<!-- PATTERN UI -->
+		<section id="pattern-ui-wrapper">
+			<ul>
+				<p>Transform</p>
+				<li>Button 1</li>
+				<li>Button 2</li>
+				<li>Button 3</li>
+				<li>Button 4</li>
+				<li>Button 5</li>
+				<li>Button 6</li>
+			</ul>
+
+			<ul>
+				<p>Color Palette</p>
+				<input type="color" name="favcolor">
+				<input type="color" name="favcolor">
+				<input type="color" name="favcolor">
+				<input type="color" name="favcolor">
+				<input type="color" name="favcolor">
+				<input type="color" name="favcolor">
+			</ul>
+		</section>
+		
+
+		<!-- JAVASCRIPT -->
+		<script type="text/javascript" src="js/libs/jquery-2.1.1.min.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+		<script type="text/javascript">
+			window.Pattern.init();
+		</script>
+
+
+		<!-- THREEJS -->
+		<script src="js/threejs/three.min.js"></script>
+		<script src="js/libs/OBJLoader.js"></script>
+		<script src="js/libs/Detector.js"></script>
+		<script src="js/libs/stats.min.js"></script>
+		<script src="js/threejs/OrbitControls.js"></script>
+		<script src="js/canvasresize/binaryajax.js"></script>
+		<script src="js/canvasresize/exif.js"></script>
+		<script src="js/canvasresize/canvasResize.js"></script>
+		<script src="js/jcrop/jquery.Jcrop.min.js" type="text/javascript"></script>
+		<script src="js/modal/jquery.modal.js" type="text/javascript" charset="utf-8"></script>
+
+		<script type="text/javascript" src="js/main_three.js"></script>
+	</body>
+</html>
+
+
+
+
+
