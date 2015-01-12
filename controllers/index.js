@@ -1,0 +1,1 @@
+exports.RootController = require('./root');
